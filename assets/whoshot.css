@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url(./Images/Shrugging.jpg)
+    no-repeat center center/cover;
+  position: absolute;
+  width: calc(100vw);
+  height: calc(100vh);
+  z-index: -1;
+  filter: blur(0px);
+justify-content: center;
+background-size: cover;
+background-position: center;
+align-items: center;
+vertical-align: bottom;
+text-align: center;
+line-height: 100vh;
+font-size: 60px;
+color: red;
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
