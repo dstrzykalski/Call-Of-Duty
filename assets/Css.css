@@ -89,6 +89,7 @@ header.logo{
     margin-right: 20px;
     display: flex;
     flex-direction: column;
+    padding: auto;
 }
 
 .meet {
@@ -111,7 +112,6 @@ header.logo{
 }
 
 img {
-    width: 300px;
     height: 400px;
     border-radius: 50%;
 }
@@ -126,11 +126,21 @@ h1 {
   font-size: 28px;
 }
 
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    align-items: center;
+    color: blue;
+    position: relative;
+}
+
 h3 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 30px;
     align-items: center;
+    color: green;
 }
 
 h4 {
@@ -138,6 +148,7 @@ h4 {
     margin-bottom: 20px;
     font-size: 30px;
     align-items: center;
+    color: red;
 } 
 
 img#bounty {
@@ -148,4 +159,7 @@ img#bounty {
   transition: ease-in 0.5s;
   top: 10px;
 }
-  
+
+ul { 
+  padding: 10px;
+}
