@@ -1,6 +1,6 @@
 const createRandomJoke = function(data) {
 
-    fetch('https://api.chucknorris.io/jokes/random?category=history,dev,money,sport,science,animal', {
+    fetch('https://api.chucknorris.io/jokes/random?category=explicit', {
   })
   .then(function (response) {
     return response.json();
