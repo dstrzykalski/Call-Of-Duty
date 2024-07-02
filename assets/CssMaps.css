@@ -7,12 +7,13 @@
 body {
   font-family: 'Muli', sans-serif;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
-  background-color: #cca8e9 !important;
+  background-color: wheat !important;
 }
 
 .container {
@@ -99,6 +100,8 @@ h1 {
 }
 
 .containerA {
+  display: flex;
+  flex-direction: column;
   width: 30vw;
   height: 80vh;
 }
@@ -124,3 +127,10 @@ header {
   width: 100%;
   font-size: 24px;
 }
+
+@media only screen and (max-width: 768px) {
+  body{ 
+      font-size:16px;
+      line-height: 30px;
+      overflow: visible;
+  }}
